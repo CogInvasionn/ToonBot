@@ -6,7 +6,7 @@ namespace toonbot.commands
 {
     public static class ToonLinkCommand
     {
-        private const string ValidUUID = "7a66d948-0ee7-4300-9b31-75d69fd9dbc6";
+        private const string ValidUUID = "7a66d948-0ee7-4300-9b31-75d69fd9dbc6";  // Example UUID
 
         public static async Task HandleToonLinkAsync(SocketCommandContext context, string[] args, bool useApi = false)
         {
