@@ -1,4 +1,3 @@
-using Discord.Commands;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
@@ -25,7 +24,7 @@ namespace toonbot.net
             if (response.IsSuccessStatusCode)
             {
                 string result = await response.Content.ReadAsStringAsync();
-                return result;  // You may parse this JSON string to return a structured response.
+                return result;  // Parse this as needed
             }
             else
             {
